@@ -70,7 +70,8 @@ class NotificationEvent(str, Enum):
 class BaseNotificationTarget(PydanticModel, frozen=True):
     """
     Base notification target model. Provides a command for sending notifications that is currently only used
-    by the built-in scheduler.
+    by the built-in scheduler. Other schedulers like Airflow use the configuration of the target itself
+    to create the notification constructs appropriate for the scheduler.
 
     Notification functions follow a naming convention of `notify_` + NotificationEvent value.
     """

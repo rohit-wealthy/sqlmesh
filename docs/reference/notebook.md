@@ -86,7 +86,7 @@ positional arguments:
 
 options:
   --template TEMPLATE, -t TEMPLATE
-                        Project template. Supported values: dbt,
+                        Project template. Supported values: airflow, dbt,
                         dlt, default, empty.
   --dlt-pipeline PIPELINE
                         DLT pipeline for which to generate a SQLMesh project.

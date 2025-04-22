@@ -72,6 +72,7 @@ nav:
   - Integrations:
     - "Overview": integrations/overview.md
     - Tools:
+      - integrations/airflow.md
       - integrations/dbt.md
       - integrations/dlt.md
       - integrations/github.md

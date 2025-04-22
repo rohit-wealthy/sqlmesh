@@ -6,7 +6,9 @@ from sqlmesh.core.plan.definition import (
     SnapshotIntervals as SnapshotIntervals,
 )
 from sqlmesh.core.plan.evaluator import (
+    AirflowPlanEvaluator as AirflowPlanEvaluator,
     BuiltInPlanEvaluator as BuiltInPlanEvaluator,
+    MWAAPlanEvaluator as MWAAPlanEvaluator,
     PlanEvaluator as PlanEvaluator,
     update_intervals_for_new_snapshots as update_intervals_for_new_snapshots,
 )

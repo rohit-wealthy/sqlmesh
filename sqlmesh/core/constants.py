@@ -87,6 +87,7 @@ SQLMESH_METADATA = "__sqlmesh__metadata__"
 
 
 BUILTIN = "builtin"
+AIRFLOW = "airflow"
 DBT = "dbt"
 NATIVE = "native"
 HYBRID = "hybrid"

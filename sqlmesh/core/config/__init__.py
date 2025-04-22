@@ -34,4 +34,10 @@ from sqlmesh.core.config.linter import LinterConfig as LinterConfig
 from sqlmesh.core.config.plan import PlanConfig as PlanConfig
 from sqlmesh.core.config.root import Config as Config
 from sqlmesh.core.config.run import RunConfig as RunConfig
-from sqlmesh.core.config.scheduler import BuiltInSchedulerConfig as BuiltInSchedulerConfig
+from sqlmesh.core.config.scheduler import (
+    AirflowSchedulerConfig as AirflowSchedulerConfig,
+    BuiltInSchedulerConfig as BuiltInSchedulerConfig,
+    CloudComposerSchedulerConfig as CloudComposerSchedulerConfig,
+    MWAASchedulerConfig as MWAASchedulerConfig,
+    YCAirflowSchedulerConfig as YCAirflowSchedulerConfig,
+)
